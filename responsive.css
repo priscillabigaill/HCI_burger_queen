@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+
+html {
+    background-color: #FCE2DB;
+}
+
+.top {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    /* background-color: #FF8FB1; */
+}
+
+.imgg {
+    width: 150px;
+
+}
+
+.foodpics:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 102;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+img {
+    width: 30vw;
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h2 {
+    padding-left: 10px;
+    font-family: Rubik;
+}
+
+h3 {
+    margin-top: -10px;
+    padding-left: 10px;
+    font-family: Rubik;
+}
+
+.button {
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 17px;
+}
+
+.box1 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box2 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box3 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box4 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box5 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.box6 {
+    background-color: rgba(209, 186, 186, 0.497);
+    width: 30vw;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* tablet */
+    [class*="box"] {
+        width: 45vw;
+    }
+    img {
+        width: 45vw;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    /* mobile */
+    [class*="box"] {
+        width: 85vw;
+    }
+    img {
+        width: 85vw;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+}
+    
